@@ -8,6 +8,7 @@ load_dotenv()
 TOKEN = getenv("BOT_TOKEN")
 API_KEY = getenv("API_KEY")
 
+
 dp = Dispatcher()
 dp.include_router(handlers_router)
 
